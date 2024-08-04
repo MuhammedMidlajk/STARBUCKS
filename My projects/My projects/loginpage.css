@@ -1,0 +1,92 @@
+body{
+
+    width: 100%;
+    height: 100VH;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+
+}
+.conteiner{
+
+    width: 40%;
+    height: 50%;
+    display: flex;
+    background-image: url(/Images/defender.jpg);
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 50px;
+
+    
+}
+
+.carname  input{
+
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px ; 
+    background: transparent;
+    
+}
+.carname ::placeholder{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+button{
+
+    border-radius: 5px;
+    margin-top: 10px;
+    background: transparent;
+     color: gray;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-style: oblique;
+    /* border: 1px solid white;  */
+}
+.service {
+
+    margin-top: 10px;
+}
+label{
+
+    background: transparent;
+    color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+.conteiner h1{
+
+    font-size: 25px;
+    font-weight: bold ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}
+input text{
+
+    color: whitesmoke;
+}
+.conteiner img{
+
+    width: 200px;
+    height: 50px;
+}
+.contact a{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-style: oblique;
+    color: gray;
+   position: absolute;
+   bottom: 170px;
+  margin-left: 480px;
+  
+} 
+
+
+
+
+
